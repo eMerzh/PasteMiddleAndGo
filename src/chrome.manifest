@@ -1,0 +1,4 @@
+content PasteMiddleAndGo  jar:chrome/PasteMiddleAndGo.jar!/content/
+skin    PasteMiddleAndGo     default     jar:chrome/PasteMiddleAndGo.jar!/skin/default/
+overlay chrome://browser/content/browser.xul   chrome://PasteMiddleAndGo/content/PasteMiddleAndGo.xul
+

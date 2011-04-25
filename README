@@ -1,0 +1,7 @@
+Paste Middle And Go! 
+--------------------
+PM&G is A Firefox extension to Quick paste using middle clik on new tab button.
+
+When you middle click on the "new-tab" button (usualy on the right of your tab bar),
+this tiny extension will load the url contained in your clipoard or
+if it doesn't recognise it as an url, it will launch your first search engine.
