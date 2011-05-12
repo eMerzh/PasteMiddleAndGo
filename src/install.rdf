@@ -5,14 +5,14 @@
 
     <Description about="urn:mozilla:install-manifest">
         <em:id>PasteMiddleAndGo@eMerzh</em:id>
-        <em:version>0.1</em:version>
+        <em:version>0.1.1</em:version>
         <em:name>Paste Middle And Go</em:name>
         <em:description>When you hit new tab button with middle click, launch a search or the url containted in your clipboard</em:description>
         <em:creator>eMerzh</em:creator>
         <em:homepageURL>http://bmaron.net</em:homepageURL>
         <em:iconURL>chrome://pastemiddleandgo/skin/PasteMiddleAndGo.svg</em:iconURL>
         <em:type>2</em:type>
-        <em:unpack>false</em:unpack>
+        <em:unpack>true</em:unpack>
         <em:targetApplication>
           <Description>
             <!-- Firefox -->
