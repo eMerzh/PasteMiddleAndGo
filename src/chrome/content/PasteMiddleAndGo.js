@@ -45,14 +45,8 @@ var pasteMiddleAndGo = {
       return; // Do nothing
 
     if (event.button == 1) {
-        /*ChangeTabButton overlay*/
-      if( node.getAttribute("class") == "tabs-newtab-button")
-      {
-        pasteMiddleAndGo.onPastAction();
-        return;
-      }
-      //if we are not satisfied let's launch the old middle check
-      pasteMiddleAndGo.oldcheckMiddleClick(node, event);
+      pasteMiddleAndGo.onPastAction();
+      return;
     }
   }
 }
