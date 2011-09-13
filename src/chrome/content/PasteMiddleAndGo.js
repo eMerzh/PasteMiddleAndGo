@@ -44,9 +44,16 @@ var pasteMiddleAndGo = {
     if (node.getAttribute("disabled") == "true")
       return; // Do nothing
 
-    if (event.button == 1) {
-      pasteMiddleAndGo.onPastAction();
-      return;
+    if (event.button == 1)
+    {
+      /*ChangeTabButton overlay*/
+      if( node.getAttribute("class") == "tabs-newtab-button" || node.getAttribute("id") == "new-tab-button")
+      {
+        pasteMiddleAndGo.onPastAction();
+        return;
+      }
+      //if we are not satisfied let's launch the old middle check
+      pasteMiddleAndGo.oldcheckMiddleClick(node, event);
     }
   }
 }

@@ -5,7 +5,7 @@
 
     <Description about="urn:mozilla:install-manifest">
         <em:id>PasteMiddleAndGo@eMerzh</em:id>
-        <em:version>0.1.4</em:version>
+        <em:version>0.1.4.1</em:version>
         <em:name>Paste Middle And Go</em:name>
         <em:description>When you hit new tab button with middle click, launch a search or the url containted in your clipboard</em:description>
         <em:creator>eMerzh</em:creator>
@@ -18,7 +18,7 @@
             <!-- Firefox -->
             <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
             <em:minVersion>4.0</em:minVersion>
-            <em:maxVersion>6.*</em:maxVersion>
+            <em:maxVersion>7.*</em:maxVersion>
           </Description>
         </em:targetApplication>
     </Description>      
