@@ -3,7 +3,7 @@ var pasteMiddleAndGo = {
   isUrl: function(e)
   {
     var v = new RegExp();
-    v.compile('^ *(([a-zA-Z-]{2,6}):\\/\\/)?(www\\.)?([a-zA-Z1-90-]{2,}\\.)+?([a-zA-Z-]{2,6})(:\\d{2,})?(\\/\\S+)* *$');
+    v.compile(/^\s*(([a-zA-Z-]{2,6}):\/\/)?([a-zA-Z0-9-]+\.)+?([a-zA-Z-]{2,6})(:\d{2,5})?(\/\S*)?\s*$/);
     if (!v.test(e))
     {
       return false;
